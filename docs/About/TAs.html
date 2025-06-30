@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research Proposal – Data Science and AI for Economists</title>
+<title>Teaching Assistants – Data Science and AI for Economists</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -131,7 +102,7 @@ window.Quarto = {
 <span class="menu-text">Lab Sessions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../project/index.html" aria-current="page"> 
+    <a class="nav-link" href="../project/index.html"> 
 <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item">
@@ -161,7 +132,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Research Proposal</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../About/TAs.html">TAs</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -189,7 +160,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../About/TAs.html" class="sidebar-item-text sidebar-link">
+  <a href="../About/TAs.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">TAs</span></a>
   </div>
 </li>
@@ -203,9 +174,10 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#简介" id="toc-简介" class="nav-link active" data-scroll-target="#简介">简介</a></li>
-  <li><a href="#研究计划上交日期deadline-for-research-proposal" id="toc-研究计划上交日期deadline-for-research-proposal" class="nav-link" data-scroll-target="#研究计划上交日期deadline-for-research-proposal">研究计划上交日期(Deadline for Research Proposal)</a></li>
-  <li><a href="#for-a-data-driven-research-proposal-数据研究计划内容指南" id="toc-for-a-data-driven-research-proposal-数据研究计划内容指南" class="nav-link" data-scroll-target="#for-a-data-driven-research-proposal-数据研究计划内容指南">For A Data-driven Research Proposal (<em>数据研究计划内容指南</em>）</a></li>
+  <li><a href="#teaching-assistants" id="toc-teaching-assistants" class="nav-link active" data-scroll-target="#teaching-assistants">Teaching Assistants</a>
+  <ul class="collapse">
+  <li><a href="#王紫澍-wang-zishu" id="toc-王紫澍-wang-zishu" class="nav-link" data-scroll-target="#王紫澍-wang-zishu">王紫澍 (Wang Zishu)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -214,8 +186,8 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Proposal</h1>
-<p class="subtitle lead">DSAI,Fall 2024</p>
+<h1 class="title">Teaching Assistants</h1>
+<p class="subtitle lead">Data Science and AI for Economists, Fall 2024</p>
 </div>
 
 
@@ -232,45 +204,15 @@ window.Quarto = {
 </header>
 
 
-<section id="简介" class="level3">
-<h3 class="anchored" data-anchor-id="简介">简介</h3>
-<ul>
-<li><p>This project is a crucial component of the course assessment. It evaluates students’ ability to collect, clean, and analyze economic and social big data using the research methods and AI tools learned in class.</p></li>
-<li><p>The project comprises <strong>90%</strong> of the total grade, divided between a mid-term research plan (<strong>50%</strong>) and a final results presentation (<strong>40%</strong>).</p></li>
-<li><p>Students will work in pairs to submit <strong>a proposal mid-semester</strong> and <strong>a final report</strong>. Each group of two will jointly submit one research project proposal and one report, complete with supporting data and code. (<em>If you cannot find a partner, don’t hesitate to seek assistance from the teaching assistant or instructor</em>.)</p></li>
-</ul>
-</section>
-<section id="研究计划上交日期deadline-for-research-proposal" class="level3">
-<h3 class="anchored" data-anchor-id="研究计划上交日期deadline-for-research-proposal">研究计划上交日期(Deadline for Research Proposal)</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">时间</th>
-<th style="text-align: center;">内容</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><strong>10/30</strong></td>
-<td style="text-align: center;">上传 <span class="math inline">\(\textcolor{blue}{期中研究计划}\)</span> 到教学立方</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><strong>TBD</strong></td>
-<td style="text-align: center;">上传 <span class="math inline">\(\textcolor{blue}{期末研究報告}\)</span> 到教学立方</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="for-a-data-driven-research-proposal-数据研究计划内容指南" class="level2">
-<h2 class="anchored" data-anchor-id="for-a-data-driven-research-proposal-数据研究计划内容指南">For A Data-driven Research Proposal (<em>数据研究计划内容指南</em>）</h2>
-<section id="project-a---satellite-data-or-other-remote-sensing-data-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="project-a---satellite-data-or-other-remote-sensing-data-analysis">Project A - Satellite Data or Other Remote Sensing Data Analysis</h4>
-</section>
-<section id="project-b---social-media-data-acquisition-and-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="project-b---social-media-data-acquisition-and-analysis">Project B - Social Media Data Acquisition and Analysis</h4>
-</section>
-<section id="project-c---ocr-and-text-data-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="project-c---ocr-and-text-data-analysis">Project C - OCR and Text Data Analysis</h4>
+<section id="teaching-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-assistants">Teaching Assistants</h2>
+<section id="王紫澍-wang-zishu" class="level3">
+<h3 class="anchored" data-anchor-id="王紫澍-wang-zishu">王紫澍 (Wang Zishu)</h3>
+<p><strong>Contact</strong>: [email]</p>
+<p><strong>Office Hours</strong>: [时间]</p>
+<p><strong>Research Interests</strong>: [研究方向]</p>
+<hr>
+<p><em>更多信息待更新…</em></p>
 
 
 </section>

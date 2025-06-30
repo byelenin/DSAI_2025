@@ -19,7 +19,7 @@ website:
       - text: "Project"
         href: project/index.qmd  
       - text: "Resources"
-        href: homeworks/index.qm
+        href: homeworks/index.qmd
 
     right:
       - icon: github

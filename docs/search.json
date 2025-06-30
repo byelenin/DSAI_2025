@@ -70,27 +70,6 @@
     "text": "Course Description\nThis course introduces students to the foundational concepts of data science and artificial intelligence, emphasizing their practical applications in economics and social sciences. Topics covered include spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning techniques. Unlike traditional econometrics courses, the focus is on using real-world examples and hands-on projects to develop students’ ability to work with non-traditional economic data.\nThe course prioritizes practical skills and intuition over theoretical or mathematical rigor, allowing students to gain experience with modern data science tools without being overwhelmed by complex equations. The goal is to equip students with the skills needed to apply data science and AI methods in their research and critically assess empirical studies that utilize these techniques.\nSpecifically, students will learn how to use various data science and AI tools to analyze non-traditional data sources and make reliable predictions about economic and social relationships. This course is designed to help students become more competitive in the field of economic research in the digital age.\n\n\n\n\n\n\n\n\n\n\n\nAcknowledge"
   },
   {
-    "objectID": "lab/index.html",
-    "href": "lab/index.html",
-    "title": "Computer Labs",
-    "section": "",
-    "text": "NOTICE\n\n\n\nThis course does not have additional lab sessions; all content will be taught and practiced during the lectures. We encourage students to bring their laptops to class. Specific materials required for in-class exercises will be listed below.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo.\nTopic\nSlides\nCode\nData Sample\nDate\n\n\n\n\n1\n\n\n\n\n9/26\n\n\n2\n\n\n\n\n10/3\n\n\n3\n\n\n\n\n10/10"
-  },
-  {
-    "objectID": "schedule/index.html",
-    "href": "schedule/index.html",
-    "title": "Schedule and Slides",
-    "section": "",
-    "text": "Week\nDate\nTopic\nSlides\n\n\n\n\n3\n9/19\nIntroduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process\nLec0\n\n\n4\n9/26\nIntroduction to basic AI tools: Github(Copilot) IDEs ect.\nLec1\n\n\n5\n10/3\nIntroduction to R and Python\nLec2\n\n\n6\n10/10\nIntroduction to R and Python\n[Lec3])\n\n\n7\n10/17\nIntroduction to spatial data and GIS analysis: Using NASA night light data as an example\n[Lec4]\n\n\n8\n10/24\nIntroduction to spatial data and GIS analysis: Using NASA night light data as an example\n[Lec5])\n\n\n9\n10/31\nResearch Project Proposal Presentations\nStudents Presentations\n\n\n10\n11/7\nWeb scraping and text analysis: Based on Baidu search (or Sina Weibo)\n[Lec6]\n\n\n11\n11/14\nWeb scraping and text analysis: Based on Baidu search (or Sina Weibo)\n[Lec7]\n\n\n12\n11/21\nOCR and text recognition: Based on Baidu PaddlePaddle platforms\n[Lec8]\n\n\n13\n11/28\nOCR and text recognition: Based on Baidu PaddlePaddle platform\n[Lec9]\n\n\n14\n12/5\nResearch Project Report Presentations\nStudents Presentations"
-  },
-  {
-    "objectID": "resources/index.html",
-    "href": "resources/index.html",
-    "title": "Introduction to Econometrics @ Business School, Nanjing University",
-    "section": "",
-    "text": "补充建设中…"
-  },
-  {
     "objectID": "part_2_eda.html",
     "href": "part_2_eda.html",
     "title": "Part I",
@@ -103,6 +82,49 @@
     "title": "Part I",
     "section": "A Cancer Modeling Example",
     "text": "A Cancer Modeling Example\nExercise on analysis of miRNA, mRNA and protein data from the paper Aure et al, Integrated analysis reveals microRNA networks coordinately expressed with key proteins in breast cancer, Genome Medicine, 2015.\nPlease run the code provided to replicate some of the analyses. Make sure you can explain what all the analysis steps do and that you understand all the results.\nIn addition, there are some extra tasks (Task 1), where no R code is provided. Please do these tasks when you have time available at the end of the lab.\n\nLoad the data\nRead the data, and convert to matrix format.\n\nmrna &lt;- read.table(\"data/data_example.txt\", header=T, sep=\"\\t\", dec=\".\")\n\n# Convert to matrix format\n\nmrna &lt;- as.matrix(mrna)\n\nPrint the data\n\nmrna[1:4, 1:4]\n\n      OSL2R.3002T4 OSL2R.3005T1 OSL2R.3013T1 OSL2R.3030T2\nACACA      1.60034     -0.49087     -0.26553     -0.27857\nANXA1     -2.42501     -0.05416     -0.46478     -2.18393\nAR         0.39615     -0.43348     -0.10232      0.58299\nBAK1       0.78627      0.39897      0.22598     -1.31202\n\n\nVisualise the overall distribution of expression levels by histogram\n\nhist(mrna, nclass=40, xlim=c(-5,5), col=\"lightblue\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTask 1\n\n\n\nThis is a callout-note, and it can be quite useful for exercises. You can find more about callout here.\nExample: Extend the above analysis to cover all genes."
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Introduction to Econometrics @ Business School, Nanjing University",
+    "section": "",
+    "text": "补充建设中…"
+  },
+  {
+    "objectID": "schedule/index.html",
+    "href": "schedule/index.html",
+    "title": "Schedule and Slides",
+    "section": "",
+    "text": "Week\nDate\nTopic\nSlides\n\n\n\n\n3\n9/19\nIntroduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process\nLec0\n\n\n4\n9/26\nIntroduction to basic AI tools: Github(Copilot) IDEs ect.\nLec1\n\n\n5\n10/3\nIntroduction to R and Python\nLec2\n\n\n6\n10/10\nIntroduction to R and Python\n[Lec3])\n\n\n7\n10/17\nIntroduction to spatial data and GIS analysis: Using NASA night light data as an example\n[Lec4]\n\n\n8\n10/24\nIntroduction to spatial data and GIS analysis: Using NASA night light data as an example\n[Lec5])\n\n\n9\n10/31\nResearch Project Proposal Presentations\nStudents Presentations\n\n\n10\n11/7\nWeb scraping and text analysis: Based on Baidu search (or Sina Weibo)\n[Lec6]\n\n\n11\n11/14\nWeb scraping and text analysis: Based on Baidu search (or Sina Weibo)\n[Lec7]\n\n\n12\n11/21\nOCR and text recognition: Based on Baidu PaddlePaddle platforms\n[Lec8]\n\n\n13\n11/28\nOCR and text recognition: Based on Baidu PaddlePaddle platform\n[Lec9]\n\n\n14\n12/5\nResearch Project Report Presentations\nStudents Presentations"
+  },
+  {
+    "objectID": "lab/index.html",
+    "href": "lab/index.html",
+    "title": "Computer Labs",
+    "section": "",
+    "text": "NOTICE\n\n\n\nThis course does not have additional lab sessions; all content will be taught and practiced during the lectures. We encourage students to bring their laptops to class. Specific materials required for in-class exercises will be listed below.\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo.\nTopic\nSlides\nCode\nData Sample\nDate\n\n\n\n\n1\n\n\n\n\n9/26\n\n\n2\n\n\n\n\n10/3\n\n\n3\n\n\n\n\n10/10"
+  },
+  {
+    "objectID": "About/TAs.html",
+    "href": "About/TAs.html",
+    "title": "Teaching Assistants",
+    "section": "",
+    "text": "Contact: [email]\nOffice Hours: [时间]\nResearch Interests: [研究方向]\n\n更多信息待更新…",
+    "crumbs": [
+      "Syllabus",
+      "TAs"
+    ]
+  },
+  {
+    "objectID": "About/TAs.html#teaching-assistants",
+    "href": "About/TAs.html#teaching-assistants",
+    "title": "Teaching Assistants",
+    "section": "",
+    "text": "Contact: [email]\nOffice Hours: [时间]\nResearch Interests: [研究方向]\n\n更多信息待更新…",
+    "crumbs": [
+      "Syllabus",
+      "TAs"
+    ]
   },
   {
     "objectID": "syllabus/index.html",
