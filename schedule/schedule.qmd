@@ -1,0 +1,37 @@
+---
+title: "**Schedule and Slides** "
+subtitle: "Data Science and AI, Fall 2025"
+#date: "`r Sys.Date()`"
+#author: "曲兆鹏"
+#institute: "南京大学"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+```{=html}
+<style type="text/css">
+  body{
+  font-size: 14pt;
+}
+</style>
+```
+
+| Week | Date | Topic | Slides |
+|:----------------:|:-----------------|:-----------------|:-----------------:|
+| 1 | 8/28 | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process |  |
+| 2 | 9/4  | Introduction to basic AI tools: Github(Copilot) IDEs ect. |  |
+| 3 | 9/11 | Introduction to R and Python |  |
+| 4 | 9/18 | Introduction to R and Python |  |
+| 5 | 9/25 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example |  |
+| 6 | 10/2 | Natiional Day  |  |
+| 7 | 10/9 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example |  |
+| 8 | 10/16  | OCR  recognition: Based on Baidu PaddlePaddle platforms |  |
+| 9 | 10/23  | OCR  recognition: Based on Baidu PaddlePaddle platforms |  |
+| 10 | 10/30 | Web scraping: Based on Baidu search (or Sina Weibo) |
+| 11 | 11/6  | Web scraping: Based on Baidu search (or Sina Weibo) |
+| 12 | 11/13  | Text analysis(I)  |  |
+| 13 | 11/20  | Text analysis(II) |  |
+| 14 | 11/27 | Research Project Proposal Presentations | Students Presentations |
+| 15 | 12/4  | Research Project Report Presentations | Students Presentations |

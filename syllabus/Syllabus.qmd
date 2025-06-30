@@ -1,33 +1,44 @@
 ---
-title: "**Schedule(日程安排)** "
-subtitle: "计量经济学, 2024春"
-date: "`r Sys.Date()`"
-author: "曲兆鹏"
-institute: "南京大学"
+title: "**Syllabus(课程计划)** "
+subtitle: "DS & AI for Economists,Fall 2025"
+# author: "Instructor:曲兆鹏;TA:王紫澍"
+# institute: "南京大学"
 output:
   prettydoc::html_pretty:
     theme: leonids
     highlight: github
 ---
 
-### Schedual(日程安排)
+```{=html}
+<style type="text/css">
+  body{
+  font-size: 13pt;
+}
+</style>
+```
 
-| Week | Date  | Topic                                                                   |                                                                               Slides                                                                               |
-|:----:|:------|:------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|  1   | 9/8   | Introduction                                                            |                                            [Lec0](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec0.pdf)                                            |
-|  2   | 9/15  | Introduction to Causal inference and Randomized Controlled Trials(RCTs) |                                            [Lec1](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec1.pdf)                                            |
-|  3   | 9/22  | Simple OLS Regression Estimation                                        |                                            [Lec2](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec2.pdf)                                            |
-|  4   | 9/29  | Multiple OLS Regression Estimation                                      |                                            [Lec3](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec3.pdf)                                            |
-|  5   | 10/6  | Multiple OLS Regression Estimation                                      |                                            [Lec4](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec4.pdf)                                            |
-|  6   | 10/13 | OLS Regression: Inference                                               |                                            [Lec5](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec5.pdf)                                            |
-|  7   | 10/20 | Regression: Nonlinear Functions                                         |                                            [Lec6](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec6.pdf)                                            |
-|  8   | 10/27 | Regression: Binary Dependent Variable Functions(II)                     |                                        [Lec7](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec7_Updated.pdf)                                        |
-|  9   | 11/3  | Assessing Studies: Internal Validity                                    |                                            [Lec8](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec8.pdf)                                            |
-|  10  | 11/10 | Lab sessions: Binary Dependent Variables and Heckman Selection Model    |                                                                                                                                                                    |
-|  11  | 11/17 | Instrumental Variable(I)                                                |                                            [Lec9](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec9.pdf)                                            |
-|  12  | 11/24 | Instrumental Variable(II)                                               |                                                                              \[Lec9\]                                                                              |
-|  13  | 12/1  | Regression Discontinuity Design                                         | [Lec10](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec10.pdf) [Lec10B](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec10_APP.pdf) |
-|  14  | 12/8  | Introduction to Panel Data                                              |                                           [Lec11](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec11.pdf)                                           |
-|  15  | 12/15 | Panel Data: DID and SCM                                                 |                                           [Lec12](https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec12.pdf)                                           |
+### Course Description
 
-\|16 \| 12/22 \| Final Review \|\[Lec13\]\|
+This course is designed to teach students how to use the latest knowledge and tools in data science and artificial intelligence to enhance their ability to analyze economic and social big data.
+
+Through specific application cases, students will gain an introductory understanding of basic tools in artificial intelligence and data science, and apply these tools in areas such as spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning applications. Unlike traditional econometrics courses or machine learning courses, this course does not focus on the theory behind various algorithms or methods. Instead, it centers on fundamental knowledge and tools in data science and artificial intelligence, using real-world cases and project-based tasks to develop students' ability to acquire, process, and utilize non-traditional economic data. The goal is to enhance students' competitiveness in economic research in the digital age.
+
+At the end, students will use the to finish an empirical research projects with big data based on the knowledge and tools learned in this course.
+
+### Evaluation
+
+-   Participation（$10\%$）
+
+-   Proposal Presentations for Group Projects ($50\%$)
+
+-   Preliminary results for Group Projects ($40\%$)
+
+### Textbooks
+
+-   The course have no required textbooks, but the following books and online resources are recommended for further reading and reference:
+
+-   Hadley Wickham and Garrett Grolemund, [*R for Data Science:Second edition*](https://r4ds.hadley.nz),O'Reilly Media, 2023.
+
+-   Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, [*An Introduction to Statistical Learning: with Applications in R: Second edition*](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html), Springer, 2023.
+
+-   Immanuel Trummer, [*Data Analysis with LLMs: Texts,tables,images and sound*](https://www.oreilly.com/library/view/data-analysis-with/9781633437647/), O'Reilly Media, 2025.

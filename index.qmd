@@ -1,6 +1,6 @@
 ---
 title: "Data Science and AI for Economists"
-subtitle: "Fall 2024<br>Business School<br>Nanjing University"
+subtitle: "Fall 2025<br>Business School<br>Nanjing University"
 sidebar: false
 toc: false
 page-layout: full
@@ -11,7 +11,9 @@ page-layout: full
 ## News
 
 ::: callout-important
-Tomorrow, I will introduce some basic software tools for the course. Please bring your laptops to class and we will install the software together. 9/25/2024
+
+**[2025/06/30]** Welcome to the course! This course is designed to introduce you to the exciting world of data science and artificial intelligence, specifically tailored for economists. We will explore various tools and techniques that will enhance your research capabilities in the digital age.
+
 :::
 
 ------------------------------------------------------------------------
@@ -30,4 +32,3 @@ Specifically, students will learn how to use various data science and AI tools t
 knitr::include_graphics("Pics/teaching.jpeg")
 ```
 
-#### Acknowledge

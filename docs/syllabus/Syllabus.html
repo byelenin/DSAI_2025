@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="曲兆鹏">
 
-<title>Schedule(日程安排) – Data Science and AI for Economists</title>
+<title>Syllabus(课程计划) – Data Science and AI for Economists</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-9f30c2c2d2429ed22c1cf9f617479b3b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-252c4a0e84e67526a027e7b7d91b0559.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-b2c52c2b1a54c84b45e7c3a3b82219ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -133,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><strong>Schedule(日程安排)</strong></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><strong>Syllabus(课程计划)</strong></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -175,7 +203,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#schedual日程安排" id="toc-schedual日程安排" class="nav-link active" data-scroll-target="#schedual日程安排">Schedual(日程安排)</a></li>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a></li>
+  <li><a href="#textbooks" id="toc-textbooks" class="nav-link" data-scroll-target="#textbooks">Textbooks</a></li>
   </ul>
 </nav>
     </div>
@@ -184,34 +214,15 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><strong>Schedule(日程安排)</strong></h1>
-<p class="subtitle lead">计量经济学, 2024春</p>
+<h1 class="title"><strong>Syllabus(课程计划)</strong></h1>
+<p class="subtitle lead">DS &amp; AI for Economists,Fall 2025</p>
 </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">曲兆鹏 </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            南京大学
-          </p>
-      </div>
-  </div>
 
 <div class="quarto-title-meta">
 
-      
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
+    
   
     
   </div>
@@ -221,111 +232,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="schedual日程安排" class="level3">
-<h3 class="anchored" data-anchor-id="schedual日程安排">Schedual(日程安排)</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">Week</th>
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">Topic</th>
-<th style="text-align: center;">Slides</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">9/8</td>
-<td style="text-align: left;">Introduction</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec0.pdf">Lec0</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">9/15</td>
-<td style="text-align: left;">Introduction to Causal inference and Randomized Controlled Trials(RCTs)</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec1.pdf">Lec1</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">9/22</td>
-<td style="text-align: left;">Simple OLS Regression Estimation</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec2.pdf">Lec2</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">4</td>
-<td style="text-align: left;">9/29</td>
-<td style="text-align: left;">Multiple OLS Regression Estimation</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec3.pdf">Lec3</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">10/6</td>
-<td style="text-align: left;">Multiple OLS Regression Estimation</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec4.pdf">Lec4</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">10/13</td>
-<td style="text-align: left;">OLS Regression: Inference</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec5.pdf">Lec5</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">7</td>
-<td style="text-align: left;">10/20</td>
-<td style="text-align: left;">Regression: Nonlinear Functions</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec6.pdf">Lec6</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">10/27</td>
-<td style="text-align: left;">Regression: Binary Dependent Variable Functions(II)</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec7_Updated.pdf">Lec7</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">11/3</td>
-<td style="text-align: left;">Assessing Studies: Internal Validity</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec8.pdf">Lec8</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">11/10</td>
-<td style="text-align: left;">Lab sessions: Binary Dependent Variables and Heckman Selection Model</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11</td>
-<td style="text-align: left;">11/17</td>
-<td style="text-align: left;">Instrumental Variable(I)</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec9.pdf">Lec9</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">12</td>
-<td style="text-align: left;">11/24</td>
-<td style="text-align: left;">Instrumental Variable(II)</td>
-<td style="text-align: center;">[Lec9]</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">13</td>
-<td style="text-align: left;">12/1</td>
-<td style="text-align: left;">Regression Discontinuity Design</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec10.pdf">Lec10</a>&nbsp;<a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec10_APP.pdf">Lec10B</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">14</td>
-<td style="text-align: left;">12/8</td>
-<td style="text-align: left;">Introduction to Panel Data</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec11.pdf">Lec11</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">15</td>
-<td style="text-align: left;">12/15</td>
-<td style="text-align: left;">Panel Data: DID and SCM</td>
-<td style="text-align: center;"><a href="https://byelenin.github.io/Metrics_2022/Slides/Metrics_2022_Lec12.pdf">Lec12</a></td>
-</tr>
-</tbody>
-</table>
-<p>|16 | 12/22 | Final Review |[Lec13]|</p>
+<style type="text/css">
+  body{
+  font-size: 13pt;
+}
+</style>
+<section id="course-description" class="level3">
+<h3 class="anchored" data-anchor-id="course-description">Course Description</h3>
+<p>This course is designed to teach students how to use the latest knowledge and tools in data science and artificial intelligence to enhance their ability to analyze economic and social big data.</p>
+<p>Through specific application cases, students will gain an introductory understanding of basic tools in artificial intelligence and data science, and apply these tools in areas such as spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning applications. Unlike traditional econometrics courses or machine learning courses, this course does not focus on the theory behind various algorithms or methods. Instead, it centers on fundamental knowledge and tools in data science and artificial intelligence, using real-world cases and project-based tasks to develop students’ ability to acquire, process, and utilize non-traditional economic data. The goal is to enhance students’ competitiveness in economic research in the digital age.</p>
+<p>At the end, students will use the to finish an empirical research projects with big data based on the knowledge and tools learned in this course.</p>
+</section>
+<section id="evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation">Evaluation</h3>
+<ul>
+<li><p>Participation（<span class="math inline">\(10\%\)</span>）</p></li>
+<li><p>Proposal Presentations for Group Projects (<span class="math inline">\(50\%\)</span>)</p></li>
+<li><p>Preliminary results for Group Projects (<span class="math inline">\(40\%\)</span>)</p></li>
+</ul>
+</section>
+<section id="textbooks" class="level3">
+<h3 class="anchored" data-anchor-id="textbooks">Textbooks</h3>
+<ul>
+<li><p>The course have no required textbooks, but the following books and online resources are recommended for further reading and reference:</p></li>
+<li><p>Hadley Wickham and Garrett Grolemund, <a href="https://r4ds.hadley.nz"><em>R for Data Science:Second edition</em></a>,O’Reilly Media, 2023.</p></li>
+<li><p>Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, <a href="https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html"><em>An Introduction to Statistical Learning: with Applications in R: Second edition</em></a>, Springer, 2023.</p></li>
+<li><p>Immanuel Trummer, <a href="https://www.oreilly.com/library/view/data-analysis-with/9781633437647/"><em>Data Analysis with LLMs: Texts,tables,images and sound</em></a>, O’Reilly Media, 2025.</p></li>
+</ul>
 
 
 </section>

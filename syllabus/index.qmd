@@ -1,6 +1,6 @@
 ---
 title: "**Syllabus(课程计划)** "
-subtitle: "DS & AI for Economists,Fall 2024"
+subtitle: "DS & AI for Economists,Fall 2025"
 # author: "Instructor:曲兆鹏;TA:王紫澍"
 # institute: "南京大学"
 output:
@@ -16,13 +16,18 @@ output:
 }
 </style>
 ```
+
 ### Course Description
 
-This course is designed to teach students how to use the latest knowledge and tools in data science and artificial intelligence to enhance their ability to analyze economic and social big data.
+This course serves two primary objectives for students already versed in core data analysis methods. 
 
-Through specific application cases, students will gain an introductory understanding of basic tools in artificial intelligence and data science, and apply these tools in areas such as spatial data analysis, web scraping and text analysis, OCR and text recognition, and machine learning applications. Unlike traditional econometrics courses or machine learning courses, this course does not focus on the theory behind various algorithms or methods. Instead, it centers on fundamental knowledge and tools in data science and artificial intelligence, using real-world cases and project-based tasks to develop students' ability to acquire, process, and utilize non-traditional economic data. The goal is to enhance students' competitiveness in economic research in the digital age.
+First, it equips students with practical experience in harnessing AI technologies to enhance analytical productivity while fostering critical discussions on human agency in data analysis. As AI capabilities expand, the course examines the evolving roles of artificial intelligence and human expertise across analytical domains.
 
-At the end, students will use the to finish an empirical research projects with big data based on the knowledge and tools learned in this course.
+Second, the course focuses on leveraging large language models and programming tools to acquire, process, and analyze unstructured big data, including spatial data analysis, web scraping, text analysis, and OCR applications. Rather than emphasizing theoretical foundations, the course adopts a hands-on approach through real-world case studies and project-based learning.
+
+The course addresses a fundamental question: how can economists effectively integrate AI into their research toolkit while maintaining analytical rigor? Through guided exploration of AI-assisted workflows, students develop both technical competencies and critical perspectives on artificial intelligence in economic research.
+
+Students will complete empirical research projects demonstrating the integration of AI tools with traditional economic analysis methods.
 
 ### Evaluation
 
@@ -34,24 +39,10 @@ At the end, students will use the to finish an empirical research projects with 
 
 ### Textbooks
 
-#### Data Science and Artificial Intelligence
+The course have no required textbooks, but the following books and online resources are recommended for further reading and reference:
 
-- Hadley Wickham and Garrett Grolemund, [*R for Data Science:Second edition*](https://r4ds.hadley.nz),O'Reilly Media, 2023.
+-   Hadley Wickham and Garrett Grolemund, [*R for Data Science:Second edition*](https://r4ds.hadley.nz),O'Reilly Media, 2023.
 
-- Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, [*An Introduction to Statistical Learning: with Applications in R: Second edition*](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html), Springer, 2023.
+-   Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, [*An Introduction to Statistical Learning: with Applications in R: Second edition*](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html), Springer, 2023.
 
-
-#### Other online resources
-
-- The course will also use a variety of online resources, including but not limited to the following:
-
-    - [DataCamp](https://www.datacamp.com)
-    - [GitHub](https://github.com)
-    - [Stack Overflow](https://stackoverflow.com)
-    - [Kaggle](https://www.kaggle.com)
-    - [RStudio Community](https://community.rstudio.com)
-
-### Outline
-
-(Preliminary, to be adjusted possibly)
-
+-   Immanuel Trummer, [*Data Analysis with LLMs: Texts,tables,images and sound*](https://www.oreilly.com/library/view/data-analysis-with/9781633437647/), O'Reilly Media, 2025.
