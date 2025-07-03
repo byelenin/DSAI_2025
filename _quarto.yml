@@ -13,14 +13,9 @@ website:
       - text: "Syllabus"
         href: syllabus/index.qmd
       - text: "Schedule"
-        href: schedule/index.qmd
-      - text: "Lab Sessions"
-        href: lab/index.qmd
+        href: schedule/schedule.qmd
       - text: "Project"
-        href: project/index.qmd  
-      - text: "Resources"
-        href: homeworks/index.qmd
-
+        href: project/project.qmd  
     right:
       - icon: github
         href: https://github.com

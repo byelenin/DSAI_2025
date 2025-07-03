@@ -1,6 +1,6 @@
 ---
 title: "Research Proposal"
-subtitle: "DSAI,Fall 2024"
+subtitle: "DSAI,Fall 2025"
 ---
 
 ### 简介
@@ -13,20 +13,15 @@ subtitle: "DSAI,Fall 2024"
 
 ### 研究计划上交日期(Deadline for Research Proposal)
 
-|   时间    |                       内容                       |
-|:---------:|:------------------------------------------------:|
-| **10/30** | 上传 $\textcolor{blue}{期中研究计划}$ 到教学立方 |
-|  **TBD**  | 上传 $\textcolor{blue}{期末研究報告}$ 到教学立方 |
+|   时间    |                      内容                      |
+|:---------:|:----------------------------------------------:|
+| **10/30** | 上传 $\textcolor{blue}{期中研究计划}$ 到Github |
+|    TBD    | 上传 $\textcolor{blue}{期末研究報告}$ 到Github |
 
 ## For A Data-driven Research Proposal (*数据研究计划内容指南*）
 
-#### Project A - Satellite Data or Other Remote Sensing Data Analysis
-
+#### Project A - Satellite Data or Other Remote Sensing Data and Spatial Analysis
 
 #### Project B - Social Media Data Acquisition and Analysis
 
-
-#### Project C - OCR and Text Data Analysis 
-
-
-
+#### Project C - OCR and Text Data Analysis

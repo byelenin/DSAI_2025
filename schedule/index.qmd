@@ -1,6 +1,6 @@
 ---
 title: "**Schedule and Slides** "
-subtitle: "Data Science and AI, Fall 2024"
+subtitle: "Data Science and AI, Fall 2025"
 #date: "`r Sys.Date()`"
 #author: "曲兆鹏"
 #institute: "南京大学"
@@ -17,19 +17,24 @@ output:
 }
 </style>
 ```
-| Week | Date  | Topic                                                                                                       |                                       Slides                                       |
+
+| Week | Date | Topic | Slides |
 |:----------------:|:-----------------|:-----------------|:-----------------:|
-|  3   | 9/19  | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process |   [Lec0](https://byelenin.github.io/Metrics_2003/Slides/DSAI2024/DSAI_2024_Lec0.pdf)   |
-|  4   | 9/26  | Introduction to basic AI tools: Github(Copilot) IDEs ect.                                                   | [Lec1](https://byelenin.github.io/DSAI_2024/docs/schedule/lec0/DSAI_Lec0_2024_Short.html) |
-|  5   | 10/3  | Introduction to R and Python                                                                                |                                     [Lec2](https://byelenin.github.io/Metrics_2003//2024/Metrics_Lec0_2024.pdf)                                      |
-|  6   | 10/10 | Introduction to R and Python                                                                                |                                     \[Lec3\])                                      |
-|  7   | 10/17 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                    |                                      \[Lec4\]                                      |
-|  8   | 10/24 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example                    |                                     \[Lec5\])                                      |
-|  9   | 10/31 | Research Project Proposal Presentations                                                                     |                               Students Presentations                               |
-|  10  | 11/7  | Web scraping and text analysis: Based on Baidu search (or Sina Weibo)                                       |                                      \[Lec6\]                                      |
-|  11  | 11/14 | Web scraping and text analysis: Based on Baidu search (or Sina Weibo)                                       |                                      \[Lec7\]                                      |
-|  12  | 11/21 | OCR and text recognition: Based on Baidu PaddlePaddle platforms                                             |                                      \[Lec8\]                                      |
-|  13  | 11/28 | OCR and text recognition: Based on Baidu PaddlePaddle platform                                              |                                      \[Lec9\]                                      |
-|  14  | 12/5  | Research Project Report Presentations                                                                       |                               Students Presentations                               |
-
-
+| 1 | 8/28 | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process |  |
+| 2 | 9/4  | Introduction to Git and GitHub  |  |
+| 3 | 9/11 | Introduction to VsCode, IDEs, and basic AI tools(Copilot) |  | 
+| 4 | 9/18 | Introduction to R and Python | \[Lec1\] |
+| 5 | 9/25 | Introduction to API(I) | \[Lec2\] |
+| 6 | 10/2 | National Day |  |
+| 7 | 10/9 | Introduction to API(II)
+| 7 | 10/17  | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | \[Lec4\] |
+| 8 | 10/24  | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | \[Lec5\]) |
+| 9 | 10/31  | Research Project Proposal Presentations | Students Presentations |
+| 10 | 11/7  | OCR and text recognition: Based on Baidu PaddlePaddle platforms |  |
+| 11 | 11/14 | OCR and text recognition: Based on Baidu PaddlePaddle platform |  |
+| 12 | 11/21 | Web scraping: Based on Baidu search (or Sina Weibo) | \[Lec6\] |
+| 13 | 11/28 | Web scraping: Based on Baidu search (or Sina Weibo) | \[Lec7\] |
+| 14 | 12/5   | Text as Data|  |
+| 15 | 12/12 | Text as Data |  |
+| 16 | 12/19  |  Introduction to Big Data |  |
+| 17 | 12/26 | Research Project Report Presentations | Students Presentations |

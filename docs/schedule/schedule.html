@@ -94,20 +94,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Syllabus</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule/index.html"> 
+    <a class="nav-link active" href="../schedule/schedule.html" aria-current="page"> 
 <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../lab/index.html"> 
-<span class="menu-text">Lab Sessions</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../project/index.html"> 
+    <a class="nav-link" href="../project/project.html"> 
 <span class="menu-text">Project</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../homeworks/index.html"> 
-<span class="menu-text">Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -225,13 +217,13 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td style="text-align: left;">9/4</td>
-<td style="text-align: left;">Introduction to basic AI tools: Github(Copilot) IDEs ect.</td>
+<td style="text-align: left;">Introduction to Git and GitHub</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td style="text-align: left;">9/11</td>
-<td style="text-align: left;">Introduction to R and Python</td>
+<td style="text-align: left;">Introduction to VsCode, IDEs, and basic AI tools(Copilot)</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
@@ -243,66 +235,84 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td style="text-align: center;">5</td>
 <td style="text-align: left;">9/25</td>
-<td style="text-align: left;">Introduction to spatial data and GIS analysis: Using NASA night light data as an example</td>
+<td style="text-align: left;">Introduction to API(I)</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
 <td style="text-align: left;">10/2</td>
-<td style="text-align: left;">Natiional Day</td>
+<td style="text-align: left;">National Day</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">7</td>
 <td style="text-align: left;">10/9</td>
+<td style="text-align: left;">Introduction to API(II)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">10/17</td>
+<td style="text-align: left;">Introduction to spatial data and GIS analysis: Using NASA night light data as an example</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">10/24</td>
 <td style="text-align: left;">Introduction to spatial data and GIS analysis: Using NASA night light data as an example</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">10/16</td>
-<td style="text-align: left;">OCR recognition: Based on Baidu PaddlePaddle platforms</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
 <td style="text-align: center;">9</td>
-<td style="text-align: left;">10/23</td>
-<td style="text-align: left;">OCR recognition: Based on Baidu PaddlePaddle platforms</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">10/30</td>
-<td style="text-align: left;">Web scraping: Based on Baidu search (or Sina Weibo)</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11</td>
-<td style="text-align: left;">11/6</td>
-<td style="text-align: left;">Web scraping: Based on Baidu search (or Sina Weibo)</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">12</td>
-<td style="text-align: left;">11/13</td>
-<td style="text-align: left;">Text analysis(I)</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">13</td>
-<td style="text-align: left;">11/20</td>
-<td style="text-align: left;">Text analysis(II)</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">14</td>
-<td style="text-align: left;">11/27</td>
+<td style="text-align: left;">10/31</td>
 <td style="text-align: left;">Research Project Proposal Presentations</td>
 <td style="text-align: center;">Students Presentations</td>
 </tr>
 <tr class="odd">
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">11/7</td>
+<td style="text-align: left;">OCR and text recognition: Based on Baidu PaddlePaddle platforms</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">11/14</td>
+<td style="text-align: left;">OCR and text recognition: Based on Baidu PaddlePaddle platform</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">11/21</td>
+<td style="text-align: left;">Web scraping: Based on Baidu search (or Sina Weibo)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;">11/28</td>
+<td style="text-align: left;">Web scraping: Based on Baidu search (or Sina Weibo)</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;">12/5</td>
+<td style="text-align: left;">Text as Data</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
 <td style="text-align: center;">15</td>
-<td style="text-align: left;">12/4</td>
+<td style="text-align: left;">12/12</td>
+<td style="text-align: left;">Text as Data</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;">12/19</td>
+<td style="text-align: left;">Introduction to Big Data</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;">12/26</td>
 <td style="text-align: left;">Research Project Report Presentations</td>
 <td style="text-align: center;">Students Presentations</td>
 </tr>
