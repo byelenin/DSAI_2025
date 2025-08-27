@@ -60,7 +60,7 @@
     "href": "index.html#news",
     "title": "Data Science and AI for Economists",
     "section": "News",
-    "text": "News\n\n\n\n\n\n\nImportant\n\n\n\n[2025/06/30] Welcome to the course! This course is designed to introduce you to the exciting world of data science and artificial intelligence, specifically tailored for economists. We will explore various tools and techniques that will enhance your research capabilities in the digital age."
+    "text": "News\n\n\n\n\n\n\nImportant\n\n\n\n[2025/08/27] Welcome to the course! Tomorrow will be the first lecture. I will introduce some the data sciene and AI for economists, and also go over the syllabus and course structure and other logistics you might want to know about. You can find the lecture slides and the course syllabus on the course website. Looking forward to seeing you all in class!\n[2025/06/30] Welcome to the course! This course is designed to introduce you to the exciting world of data science and artificial intelligence, specifically tailored for economists. We will explore various tools and techniques that will enhance your research capabilities in the digital age."
   },
   {
     "objectID": "index.html#course-description",
@@ -102,7 +102,7 @@
     "href": "schedule/schedule.html",
     "title": "Schedule and Slides",
     "section": "",
-    "text": "Week\nDate\nTopic\nSlides\n\n\n\n\n1\n8/28\nIntroduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process\n\n\n\n2\n9/4\nIntroduction to Git and GitHub\n\n\n\n3\n9/11\nIntroduction to VsCode, IDEs, and basic AI tools(Copilot)\n\n\n\n4\n9/18\nIntroduction to R and Python\n\n\n\n5\n9/25\nIntroduction to API(I)\n\n\n\n6\n10/2\nNational Day\n\n\n\n7\n10/9\nIntroduction to API(II)\n\n\n\n7\n10/17\nIntroduction to spatial data and GIS analysis: Using NASA night light data as an example\n\n\n\n8\n10/24\nIntroduction to spatial data and GIS analysis: Using NASA night light data as an example\n\n\n\n9\n10/31\nResearch Project Proposal Presentations\nStudents Presentations\n\n\n10\n11/7\nOCR and text recognition: Based on Baidu PaddlePaddle platforms\n\n\n\n11\n11/14\nOCR and text recognition: Based on Baidu PaddlePaddle platform\n\n\n\n12\n11/21\nWeb scraping: Based on Baidu search (or Sina Weibo)\n\n\n\n13\n11/28\nWeb scraping: Based on Baidu search (or Sina Weibo)\n\n\n\n14\n12/5\nText as Data\n\n\n\n15\n12/12\nText as Data\n\n\n\n16\n12/19\nIntroduction to Big Data\n\n\n\n17\n12/26\nResearch Project Report Presentations\nStudents Presentations"
+    "text": "Week\nDate\nTopic\nSlides\n\n\n\n\n1\n8/28\nIntroduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process\nLec0\n\n\n2\n9/4\nIntroduction to Git and GitHub\n\n\n\n3\n9/11\nIntroduction to VsCode, IDEs, and basic AI tools(Copilot)\n\n\n\n4\n9/18\nIntroduction to R and Python\n\n\n\n5\n9/25\nIntroduction to API(I)\n\n\n\n6\n10/2\nNational Day\n\n\n\n7\n10/9\nIntroduction to API(II)\n\n\n\n7\n10/17\nIntroduction to spatial data and GIS analysis: Using NASA night light data as an example\n\n\n\n8\n10/24\nIntroduction to spatial data and GIS analysis: Using NASA night light data as an example\n\n\n\n9\n10/31\nResearch Project Proposal Presentations\nStudents Presentations\n\n\n10\n11/7\nOCR and text recognition: Based on Baidu PaddlePaddle platforms\n\n\n\n11\n11/14\nOCR and text recognition: Based on Baidu PaddlePaddle platform\n\n\n\n12\n11/21\nWeb scraping: Based on Baidu search (or Sina Weibo)\n\n\n\n13\n11/28\nWeb scraping: Based on Baidu search (or Sina Weibo)\n\n\n\n14\n12/5\nText as Data\n\n\n\n15\n12/12\nText as Data\n\n\n\n16\n12/19\nIntroduction to Big Data\n\n\n\n17\n12/26\nResearch Project Report Presentations\nStudents Presentations"
   },
   {
     "objectID": "lab/index.html",
@@ -153,5 +153,54 @@
     "title": "Homework",
     "section": "",
     "text": "Schedule\n\n\n\n\n\n\nSchedule\n\n\n\nThe 1st homework is due on April 14 2:00 am.\n\n\n\n\n\nNo.\nTopic\nDue to\n\n\n\n\n1\nHomework\nApril 14 2:00 am\n\n\n2\n[Homework 2]"
+  },
+  {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nThis is a Quarto-based academic course website for “Data Science and AI for Economists” taught at Nanjing University Business School. The course covers practical applications of data science and AI in economics, including spatial data analysis, web scraping, text analysis, and OCR techniques.\n\n\n\nThis is a Quarto website project that generates static HTML pages from .qmd (Quarto Markdown) files. The project structure follows Quarto’s website conventions:\n\nSource files: Root directory contains .qmd files for course content\nBuild output: docs/ directory contains the generated HTML website\nConfiguration: _quarto.yml defines the website structure, navigation, and build settings\nContent organization:\n\nCourse pages (syllabus, schedule, project) as .qmd files\nSlides in slides/ directory (HTML presentations)\nStatic assets in Pics/ directory\nCustom styling in Css/custom.scss\n\n\nThe website uses the Zephyr theme with custom SCSS styling and includes a navbar, sidebar navigation, and search functionality.\n\n\n\n\n\n# Preview the website locally with live reload\nquarto preview\n\n# Render all pages to docs/ directory\nquarto render\n\n# Render a specific page\nquarto render index.qmd\n\n\n\n# Check Quarto installation and version\nquarto --version\n\n# Validate project configuration\nquarto check\n\n\n\n\n\n_quarto.yml: Main website configuration including navigation, theme, and output settings\nDSAI_2024.Rproj: R project file for RStudio integration\nIndividual .qmd files contain YAML frontmatter for page-specific settings\n\n\n\n\n\nCourse content: Written in Quarto Markdown (.qmd) with R code chunks where needed\nSlides: Self-contained HTML presentations in slides/ directory\nNavigation: Defined in _quarto.yml with navbar and sidebar configuration\nStyling: Zephyr theme customized with Css/custom.scss\n\n\n\n\n\nThe site outputs to docs/ for GitHub Pages hosting\nUses R/RStudio ecosystem with knitr for document processing\nCustom fonts and styling defined in CSS files in slides/Lec0/CSS/\nSite URL configured for GitHub Pages deployment at byelenin.github.io/DSAI_2024/"
+  },
+  {
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This is a Quarto-based academic course website for “Data Science and AI for Economists” taught at Nanjing University Business School. The course covers practical applications of data science and AI in economics, including spatial data analysis, web scraping, text analysis, and OCR techniques."
+  },
+  {
+    "objectID": "CLAUDE.html#architecture",
+    "href": "CLAUDE.html#architecture",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This is a Quarto website project that generates static HTML pages from .qmd (Quarto Markdown) files. The project structure follows Quarto’s website conventions:\n\nSource files: Root directory contains .qmd files for course content\nBuild output: docs/ directory contains the generated HTML website\nConfiguration: _quarto.yml defines the website structure, navigation, and build settings\nContent organization:\n\nCourse pages (syllabus, schedule, project) as .qmd files\nSlides in slides/ directory (HTML presentations)\nStatic assets in Pics/ directory\nCustom styling in Css/custom.scss\n\n\nThe website uses the Zephyr theme with custom SCSS styling and includes a navbar, sidebar navigation, and search functionality."
+  },
+  {
+    "objectID": "CLAUDE.html#development-commands",
+    "href": "CLAUDE.html#development-commands",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "# Preview the website locally with live reload\nquarto preview\n\n# Render all pages to docs/ directory\nquarto render\n\n# Render a specific page\nquarto render index.qmd\n\n\n\n# Check Quarto installation and version\nquarto --version\n\n# Validate project configuration\nquarto check"
+  },
+  {
+    "objectID": "CLAUDE.html#key-configuration-files",
+    "href": "CLAUDE.html#key-configuration-files",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "_quarto.yml: Main website configuration including navigation, theme, and output settings\nDSAI_2024.Rproj: R project file for RStudio integration\nIndividual .qmd files contain YAML frontmatter for page-specific settings"
+  },
+  {
+    "objectID": "CLAUDE.html#content-structure",
+    "href": "CLAUDE.html#content-structure",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Course content: Written in Quarto Markdown (.qmd) with R code chunks where needed\nSlides: Self-contained HTML presentations in slides/ directory\nNavigation: Defined in _quarto.yml with navbar and sidebar configuration\nStyling: Zephyr theme customized with Css/custom.scss"
+  },
+  {
+    "objectID": "CLAUDE.html#development-notes",
+    "href": "CLAUDE.html#development-notes",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "The site outputs to docs/ for GitHub Pages hosting\nUses R/RStudio ecosystem with knitr for document processing\nCustom fonts and styling defined in CSS files in slides/Lec0/CSS/\nSite URL configured for GitHub Pages deployment at byelenin.github.io/DSAI_2024/"
   }
 ]

@@ -11,6 +11,9 @@ page-layout: full
 ## News
 
 ::: callout-important
+**\[2025/08/27\]** Welcome to the course! Tomorrow will be the first lecture. I will introduce some the data sciene and AI for economists, and also go over the syllabus and course structure and other logistics you might want to know about. You can find the lecture slides and the course syllabus on the course website. Looking forward to seeing you all in class!
+
+
 **\[2025/06/30\]** Welcome to the course! This course is designed to introduce you to the exciting world of data science and artificial intelligence, specifically tailored for economists. We will explore various tools and techniques that will enhance your research capabilities in the digital age.
 :::
 
