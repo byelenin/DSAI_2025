@@ -1,5 +1,33 @@
 ---
-title: "Introduction to Econometrics @ Business School, Nanjing University"
+title: "**Resources** "
+subtitle: "DSAI, Fall 2025"
+author: "Zhaopeng Qu"
+institute: "Nanjing University"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
 ---
 
-补充建设中...
+```{=html}
+<style type="text/css">
+  body{
+  font-size: 13pt;
+}
+</style>
+```
+
+## R Tutorials
+
+-   [Hands On Programming with R](https://rstudio-education.github.io/hopr/)
+-   [R for Data Science](https://r4ds.had.co.nz/)
+
+## R Markdown
+
+-   [R Markdown Tutorial](https://rmarkdown.rstudio.com/lesson-1.html)
+-   [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+## Git and GitHub Resources
+
+-   [Happy Git with R](https://happygitwithr.com)
+-   [GitHub 入门](https://docs.github.com/zh/get-started)

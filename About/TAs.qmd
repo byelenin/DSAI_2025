@@ -5,11 +5,11 @@ subtitle: "Data Science and AI for Economists, Fall 2024"
 
 ## Teaching Assistants
 
-### 王紫澍 (Wang Zishu)
+### 虞晓天 (Xiaotian Yu)
+
+**Position**: 2nd year PhD Student, Nanjing University
 
 **Contact**: \[email\]
-
-**Office Hours**: \[时间\]
 
 **Research Interests**: \[研究方向\]
 

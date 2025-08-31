@@ -16,6 +16,8 @@ website:
         href: schedule/schedule.qmd
       - text: "Project"
         href: project/project.qmd  
+      - text: "Resources"
+        href: resources/index.qmd
     right:
       - icon: github
         href: https://github.com
