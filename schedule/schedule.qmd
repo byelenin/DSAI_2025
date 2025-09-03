@@ -21,7 +21,7 @@ output:
 | Week | Date | Topic | Slides |
 |:----------------:|:-----------------|:-----------------|:-----------------:|
 | 1 | 8/28 | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process | [Lec0](/slides/DSAI_Lec0_2025.pdf) |
-| 2 | 9/4 | Introduction to Git and GitHub |  |
+| 2 | 9/4 | Introduction to Git and GitHub | [Lec1](/slides/DSAI_Lec1_2025.pdf) |
 | 3 | 9/11 | Introduction to VsCode, IDEs, and basic AI tools(Copilot) |  |
 | 4 | 9/18 | Introduction to R and Python |  |
 | 5 | 9/25 | Introduction to API(I) |  |
