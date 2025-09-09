@@ -18,22 +18,22 @@ output:
 </style>
 ```
 
-| Week | Date | Topic | Slides |
-|:----------------:|:-----------------|:-----------------|:-----------------:|
-| 1 | 8/28 | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process | [Lec0](/slides/DSAI_Lec0_2025.pdf) |
-| 2 | 9/4 | Introduction to Git and GitHub | [Lec1](/slides/DSAI_Lec1_2025.pdf) |
-| 3 | 9/11 | Introduction to VsCode, IDEs, and basic AI tools(Copilot) |  |
-| 4 | 9/18 | Introduction to R and Python |  |
-| 5 | 9/25 | Introduction to API(I) |  |
-| 6 | 10/2 | National Day |  |
-| 7 | 10/9 | Introduction to API(II) |  |
-| 7 | 10/17 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example |  |
-| 8 | 10/24 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example |  |
-| 9 | 10/31 | Research Project Proposal Presentations | Students Presentations |
-| 10 | 11/7 | OCR and text recognition: Based on Baidu PaddlePaddle platforms |  |
-| 11 | 11/14 | OCR and text recognition: Based on Baidu PaddlePaddle platform |  |
-| 12 | 11/21 | Web scraping: Based on Baidu search (or Sina Weibo) |  |
-| 13 | 11/28 | Web scraping: Based on Baidu search (or Sina Weibo) |  |
+| Week | Date | Topic | Slides | Labs| 
+|:----------------:|:-----------------|:-----------------|:-----------------:|:-----------------:|
+| 1 | 8/28  | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process | [Lec0](/slides/DSAI_Lec0_2025.pdf) | | 
+| 2 | 9/4   | Introduction to Git and GitHub | [Lec1](/slides/DSAI_Lec1_2025.pdf) |[Lab1A](/slides/DSAI_Lab1A_2025.pdf) [Lab1B](/slides/DSAI_Lab1B_2025.pdf)| 
+| 3 | 9/11  | Introduction to R, Rmardown, Git and GitHub(Continued) | [Lec2] || 
+| 4 | 9/18  | Introduction to spatial data and GIS analysis: Using NASA night light data as an example |  |
+| 5 | 9/25  | Introduction to spatial data and GIS analysis: Using NASA night light data as an example |  |
+| 6 | 10/2  | National Day |  |
+| 7 | 10/9  | Introduction to Python |  |
+| 8 | 10/16 | Introduction to VsCode, IDEs, and basic AI tools(Copilot) |  
+| 9 | 10/23 | Introduction to VsCode, IDEs, and basic AI tools(Copilot) |  
+| 10 | 10/31 | OCR and text recognition: Based on Baidu PaddlePaddle platforms |  |
+| 11 | 11/7 | OCR and text recognition: Based on Baidu PaddlePaddle platform |  |
+| 12 | 11/14 | Web scraping: Based on Baidu search (or Sina Weibo) |  |
+| 13 | 11/21 | Web scraping: Based on Baidu search (or Sina Weibo) |  |
+| 10 | 11/28 | Research Project Proposal Presentations | Students Presentations |
 | 14 | 12/5 | Text as Data |  |
 | 15 | 12/12 | Text as Data |  |
 | 16 | 12/19 | Introduction to Big Data |  |
