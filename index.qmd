@@ -11,16 +11,14 @@ page-layout: full
 ## News
 
 ::: callout-important
-
-**\[2025/09/4\]** Tomorrow I will introduce the basics of Git and GitHub, which are essential tools for version control and collaboration in data science projects. In the lab sessionm, our TA will teach you these baic tools from installing to using them in your projects.<span style="color: red;">**Please make sure to bring your laptops to class!**</span>
-
+**\[2025/09/11\]** I will introduce Basic R and Data manage skills using Rmarkdown. And in the lab session, our TA, Xiaotian will continue to work git and GitHub, which are essential tools for version control and collaboration in data science projects. [**Please make sure to bring your laptops to class!**]{style="color: red;"}
 :::
 
+**\[2025/09/4\]** Tomorrow I will introduce the basics of Git and GitHub, which are essential tools for version control and collaboration in data science projects. In the lab sessionm, our TA will teach you these baic tools from installing to using them in your projects.[**Please make sure to bring your laptops to class!**]{style="color: pink;"}
 
 **\[2025/08/27\]** Welcome to the course! Tomorrow will be the first lecture. I will introduce some the data sciene and AI for economists, and also go over the syllabus and course structure and other logistics you might want to know about. You can find the lecture slides and the course syllabus on the course website. Looking forward to seeing you all in class!
 
 **\[2025/06/30\]** Welcome to the course! This course is designed to introduce you to the exciting world of data science and artificial intelligence, specifically tailored for economists. We will explore various tools and techniques that will enhance your research capabilities in the digital age.
-
 
 ------------------------------------------------------------------------
 
