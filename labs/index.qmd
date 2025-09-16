@@ -25,8 +25,8 @@ output:
 **This course does not have additional lab sessions; all content will be taught and practiced during the lectures. We encourage students to bring their laptops to class. Specific materials required for in-class exercises will be listed below.**
 :::
 
-| No.        | Topic      | Slides     | Code       | Data Sample  | Date | 
-|:----------:|:-----------|------------|:----------:|------------|:----------:|
-|  1         |            |            |            |            |     9/26  |
-|  2       |            |            |            |            |     10/3  |
-|  3        |            |            |            |            |     10/10  |                                                                                       
+| No. | Topic | Slides | Code | Data Sample | Date  |
+|:---:|:------|--------|:----:|-------------|:-----:|
+|  1  |       |        |      |             | 9/26  |
+|  2  |       |        |      |             | 10/3  |
+|  3  |       |        |      |             | 10/10 |

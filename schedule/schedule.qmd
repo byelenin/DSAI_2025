@@ -22,9 +22,9 @@ output:
 |:-------------:|:--------------|:--------------|:-------------:|:-------------:|
 | 1 | 8/28 | Introduction to course content, Data Science, AI and Economics, Introduction to basic data analysis process | [Lec0](/slides/DSAI_Lec0_2025.pdf) |  |
 | 2 | 9/4 | Introduction to Git and GitHub | [Lec1](/slides/DSAI_Lec1_2025.pdf) | [Lab1A](/slides/DSAI_Lab1A_2025.pdf) [Lab1B](/slides/DSAI_Lab1B_2025.pdf) |
-| 3 | 9/11 | Introduction to R, Rmardown, Git and GitHub(Continued) | [Lec2](/slides/DSAI_Lec2_2025.pdf)  |  |
-| 4 | 9/18 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example |  |  |
-| 5 | 9/25 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example |  |  |
+| 3 | 9/11 | Introduction to R, Rmardown, Git and GitHub(Continued) | [Lec2](/slides/DSAI_Lec2_2025.pdf) |  |
+| 4 | 9/18 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | [Lec3](/slides/DSAI_Lec3_2025.pdf) | [Lab3] |
+| 5 | 9/25 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | [Lec4] | [Lab4] |
 | 6 | 10/2 | National Day |  |  |
 | 7 | 10/9 | Introduction to Python |  |  |
 | 8 | 10/16 | Introduction to VsCode, IDEs, and basic AI tools(Copilot) |  |  |
