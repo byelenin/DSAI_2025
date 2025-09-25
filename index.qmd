@@ -12,14 +12,15 @@ page-layout: full
 
 ::: callout-important
 
-**\[2025/09/17\]**  
+**\[2025/09/25\]**
 
-Tomorrow's class will be divided into two parts.The first hour will focus on GIS fundamentals, covering essential concepts and principles of Geographic Information Systems. In the second hour lab session, our TA, Xiaotian will introduce basic GIS operations in R, teaching you how to work with spatial data and perform geospatial analysis using R. You can find the lecture slides and lab materials on the [Schedule page](/schedule/schedule.html).Last but not least,[**don't forget bringing your laptops to class!**]{style="color: red;"}
-
+Today's class will continue our exploration of GIS focusing on Nighttime Light Data Analysis. I will guide you through practical applications of GIS using NASA night light data. You can find the lecture slides and lab materials on the [Schedule page](/schedule/schedule.html). Last but not least,[**Please bring your laptops to class!**]{style="color: orange;"}
 :::
 
-**\[2025/09/11\]** I will introduce Basic R and Data manage skills using Rmarkdown. And in the lab session, our TA, Xiaotian will continue to work git and GitHub, which are essential tools for version control and collaboration in data science projects. [**Please make sure to bring your laptops to class!**]{style="color: blue;"}
 
+**\[2025/09/17\]** Tomorrow's class will be divided into two parts.The first hour will focus on GIS fundamentals, covering essential concepts and principles of Geographic Information Systems. In the second hour lab session, our TA, Xiaotian will introduce basic GIS operations in R, teaching you how to work with spatial data and perform geospatial analysis using R. You can find the lecture slides and lab materials on the [Schedule page](/schedule/schedule.html).Last but not least,[**don't forget bringing your laptops to class!**]{style="color: red;"}
+
+**\[2025/09/11\]** I will introduce Basic R and Data manage skills using Rmarkdown. And in the lab session, our TA, Xiaotian will continue to work git and GitHub, which are essential tools for version control and collaboration in data science projects. [**Please make sure to bring your laptops to class!**]{style="color: blue;"}
 
 **\[2025/09/4\]** Tomorrow I will introduce the basics of Git and GitHub, which are essential tools for version control and collaboration in data science projects. In the lab sessionm, our TA will teach you these baic tools from installing to using them in your projects.[**Please make sure to bring your laptops to class!**]{style="color: pink;"}
 
