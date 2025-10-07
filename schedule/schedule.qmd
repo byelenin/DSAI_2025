@@ -24,11 +24,11 @@ output:
 | 2 | 9/4 | Introduction to Git and GitHub | [Lec1](/slides/DSAI_Lec1_2025.pdf) | [Lab1A](/slides/DSAI_Lab1A_2025.pdf) [Lab1B](/slides/DSAI_Lab1B_2025.pdf) |
 | 3 | 9/11 | Introduction to R, Rmardown, Git and GitHub(Continued) | [Lec2](/slides/DSAI_Lec2_2025.pdf) |  |
 | 4 | 9/18 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | [Lec3](/slides/DSAI_Lec3_2025.pdf) | [Lab3](/labs/Lab3_GIS.R) [Data](/data/Shapes.zip) |
-| 5 | 9/25 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | [Lec4](/slides/DSAI_Lec4_2025.pdf) | [Lab4](/labs/Lab4_NTL.R) [Data](/data/Shapes.zip)|
+| 5 | 9/25 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | [Lec4](/slides/DSAI_Lec4_2025.pdf) | [Lab4](/labs/Lab4_NTL.R) [Data](/data/Shapes.zip) |
 | 6 | 10/2 | National Day |  |  |
-| 7 | 10/9 | Introduction to Python |  |  |
-| 8 | 10/16 | Introduction to VsCode, IDEs, and basic AI tools(Copilot) |  |  |
-| 9 | 10/23 | Introduction to VsCode, IDEs, and basic AI tools(Copilot) |  |  |
+| 7 | 10/9 | Introduction to VS Code, R and Github        |  |  |
+| 8 | 10/16 | Introduction to VS Code and Python          |  |  |
+| 9 | 10/23 | Introduction to AI tools(Copilot) to Coding |  |  |
 | 10 | 10/31 | OCR and text recognition: Based on Baidu PaddlePaddle platforms |  |  |
 | 11 | 11/7 | OCR and text recognition: Based on Baidu PaddlePaddle platform |  |  |
 | 12 | 11/14 | Web scraping: Based on Baidu search (or Sina Weibo) |  |  |

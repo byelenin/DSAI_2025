@@ -12,10 +12,14 @@ page-layout: full
 
 ::: callout-important
 
+**\[2025/10/09\]**
+
+In today's class, we will learn to run R and Git by using the most popular coding editor **VSCODE** instead of Rstudio. VSCODE is a powerful and versatile code editor that supports multiple programming languages, including R. It offers a wide range of features and extensions that can enhance your coding experience and productivity. You can find the lecture slides and lab materials on the [Schedule page](/schedule/schedule.html). Last but not least,[**Please bring your laptops to class!**]{style="color: orange;"}
+:::
+
 **\[2025/09/25\]**
 
 Today's class will continue our exploration of GIS focusing on Nighttime Light Data Analysis. I will guide you through practical applications of GIS using NASA night light data. You can find the lecture slides and lab materials on the [Schedule page](/schedule/schedule.html). Last but not least,[**Please bring your laptops to class!**]{style="color: orange;"}
-:::
 
 
 **\[2025/09/17\]** Tomorrow's class will be divided into two parts.The first hour will focus on GIS fundamentals, covering essential concepts and principles of Geographic Information Systems. In the second hour lab session, our TA, Xiaotian will introduce basic GIS operations in R, teaching you how to work with spatial data and perform geospatial analysis using R. You can find the lecture slides and lab materials on the [Schedule page](/schedule/schedule.html).Last but not least,[**don't forget bringing your laptops to class!**]{style="color: red;"}
