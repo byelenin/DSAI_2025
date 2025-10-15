@@ -26,8 +26,8 @@ output:
 | 4 | 9/18 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | [Lec3](/slides/DSAI_Lec3_2025.pdf) | [Lab3](/labs/Lab3_GIS.R) [Data](/data/Shapes.zip) |
 | 5 | 9/25 | Introduction to spatial data and GIS analysis: Using NASA night light data as an example | [Lec4](/slides/DSAI_Lec4_2025.pdf) | [Lab4](/labs/Lab4_NTL.R) [Data](/data/Shapes.zip) |
 | 6 | 10/2 | National Day |  |  |
-| 7 | 10/9 | Introduction to VS Code, R and Github | [Lec5](/slides/DSAI_Lec5_2025.pdf)  |  |
-| 8 | 10/16 | Introduction to VS Code and Python |  |  |
+| 7 | 10/9 | Introduction to VS Code, R and Github | [Lec5](/slides/DSAI_Lec5_2025.pdf) |  |
+| 8 | 10/16 | Introduction to VS Code and Python | [Lec6](/slides/DSAI_Lec6_2025.pdf) |  |
 | 9 | 10/23 | Introduction to AI tools(Copilot) to Coding |  |  |
 | 10 | 10/31 | OCR and text recognition: Based on Baidu PaddlePaddle platforms |  |  |
 | 11 | 11/7 | OCR and text recognition: Based on Baidu PaddlePaddle platform |  |  |
