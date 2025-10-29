@@ -19,7 +19,7 @@ output:
 
 ### Course Description
 
-This course serves two primary objectives for students already versed in core data analysis methods. 
+This course serves two primary objectives for students already versed in core data analysis methods.
 
 First, it equips students with practical experience in harnessing AI technologies to enhance analytical productivity while fostering critical discussions on human agency in data analysis. As AI capabilities expand, the course examines the evolving roles of artificial intelligence and human expertise across analytical domains.
 

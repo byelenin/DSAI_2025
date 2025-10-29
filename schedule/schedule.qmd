@@ -28,8 +28,8 @@ output:
 | 6 | 10/2 | National Day |  |  |
 | 7 | 10/9 | Introduction to VS Code, R and Github | [Lec5](/slides/DSAI_Lec5_2025.pdf) |  |
 | 8 | 10/16 | Introduction to VS Code and Python | [Lec6](/slides/DSAI_Lec6_2025.pdf) |  |
-| 9 | 10/23 | Introduction to AI tools(Copilot) to Coding |  |  |
-| 10 | 10/31 | OCR and text recognition: Based on Baidu PaddlePaddle platforms |  |  |
+| 9 | 10/23 | Introduction to AI tools(Copilot) to Coding | [Lec7](/slides/DSAI_Lec7_2025.pdf) |  |
+| 10 | 10/31 | OCR and text recognition: Based on Baidu PaddlePaddle platforms | [Lec8](/slides/DSAI_Lec7_2025.pdf) |  |
 | 11 | 11/7 | OCR and text recognition: Based on Baidu PaddlePaddle platform |  |  |
 | 12 | 11/14 | Web scraping: Based on Baidu search (or Sina Weibo) |  |  |
 | 13 | 11/21 | Web scraping: Based on Baidu search (or Sina Weibo) |  |  |
