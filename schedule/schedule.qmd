@@ -31,8 +31,8 @@ output:
 | 9 | 10/23 | Introduction to AI tools(Copilot) to Coding | [Lec7](/slides/DSAI_Lec7_2025.pdf) |  |
 | 10 | 10/31 | OCR and text recognition: Based on Baidu PaddlePaddle platforms | [Lec8](/slides/DSAI_Lec8_2025.pdf) |  |
 | 11 | 11/7 | OCR and text recognition: Based on Baidu PaddlePaddle platform | [Lec8](/slides/DSAI_Lec8_2025.pdf) |  |
-| 12 | 11/14 | Web scraping: For Wiki and Baidu  | [Lec9](/slides/DSAI_Lec9_2025.pdf) |  |
-| 13 | 11/21 | Web scraping: For Wiki and Baidu  | [Lec9](/slides/DSAI_Lec9_2025.pdf) |  |
+| 12 | 11/14 | Web scraping: For Wiki and Baidu | [Lec9](/slides/DSAI_Lec9_2025.pdf) |  |
+| 13 | 11/21 | Web scraping: For Wiki and Baidu | [Lec9](/slides/DSAI_Lec9_2025.pdf) |  |
 | 10 | 11/28 | Research Project Proposal Presentations | Students Presentations |  |
 | 14 | 12/5 | Text as Data |  |  |
 | 15 | 12/12 | Text as Data |  |  |
