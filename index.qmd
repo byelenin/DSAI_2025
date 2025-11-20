@@ -11,8 +11,12 @@ page-layout: full
 ## News
 
 ::: callout-important
-**\[2025/11/12\]** Today, we will briefly introduce the basic principles of web scraping methods, and then try to extract table data from a static web page. For more details, please refer to the [Schedule page](/schedule/schedule.html).
+
+**\[2025/11/20\]** Today, we will continue to learn web scraping, and try to extract data from a dynamic web page by taking Baidu Index as an example. For more details, please refer to the [Schedule page](/schedule/schedule.html).
 :::
+
+**\[2025/11/12\]** Today, we will briefly introduce the basic principles of web scraping methods, and then try to extract table data from a static web page. For more details, please refer to the [Schedule page](/schedule/schedule.html).
+
 **\[2025/11/6\]** Today, we will continue applying OCR (Optical Character Recognition) and text recognition using the Baidu Cloud platform, with Chinese gazettes as an example. The lecture slides and lab materials are the same as last lecture and can be found on the [Schedule page](/schedule/schedule.html).
 
 **\[2025/10/30\]** Today, we will learn some basic concepts about OCR (Optical Character Recognition) and text recognition using the Baidu PaddlePaddle platform. OCR is a technology that converts different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data. You can find the lecture slides and lab materials on the [Schedule page](/schedule/schedule.html).
