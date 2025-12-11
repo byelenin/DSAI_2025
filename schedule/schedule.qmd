@@ -35,6 +35,6 @@ output:
 | 13 | 11/21 | Web scraping: For Wiki and Baidu | [Lec10](/slides/DSAI_Lec10_2025.pdf) |  |
 | 10 | 11/28 | Research Project Proposal Presentations | Students Presentations |  |
 | 14 | 12/5 | Text as Data | [Lec11](/slides/DSAI_Lec11_2025.pdf)  |  |
-| 15 | 12/12 | Text as Data |  |  |
+| 15 | 12/12 | Text as Data |[Lec12](/slides/DSAI_Lec12_2025.pdf)   |  |
 | 16 | 12/19 | Introduction to Big Data |  |  |
 | 17 | 12/26 | Research Project Report Presentations | Students Presentations |  |
